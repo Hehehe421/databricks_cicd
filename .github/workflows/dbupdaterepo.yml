@@ -20,7 +20,7 @@ jobs:
        DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST}}
        DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN}}
       run:
-       databricks repo update --branch main --path /Repos/Prod/databricks_cicd
+       databricks repos update --branch main --path /Repos/summer_Prod/databricks_cicd
       
           
     
